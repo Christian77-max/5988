@@ -1,1 +1,60 @@
-# 5988 bamor
+# Exercicios.
+
+1. 
+R = (V AND F) OR NOT(V AND f)
+R = (F) OR NOT (F)
+R = F OR V
+R = V
+
+2. R = (V OR F) AND NOT(V AND F)
+R = (V) AND NOT(F)
+R = V AND V
+R= V
+
+2.
+R= NOT(V AND F) AND NOT(V OR F)
+R= NOT F AND NOT V
+R= V AND F
+R= F
+
+4. ((V AND F) AND (V OR F)) OR (V AND F)
+R= (F AND V) OR F
+R= F OR F
+R=F
+
+5. (V OR F) OR (NOT(V AND F) OR NOT (V OR F))
+R=(V OR F) OR (NOT(F) OR (NOT(V)))
+R= V OR(V OR F)
+R= V OR V
+R=V
+
+6. NOT(V OR F) AND (NOT(V OR F) OR (V AND F))
+R=(NOT OR F) AND (NOT(V) OR F)
+R= F AND (F OR F)
+R= F ANF F
+R= F
+
+7. (V OR F) OR ((V AND F) AND NOT(V OR F))
+R=V OR (F AND NOT(V))
+R= V OR (F AND F)
+R= V
+
+8. (NOT(V AND F) AND (V AND F)) OR (V OR F)
+R= (NOT(V AND F) AND (V AND F)) OR (V OR F)
+R= (NOT(F) AND F) OR V
+R= (V AND F) OR V
+R= F OR V
+R= V
+
+9. ((NOT(V) OR F) AND NOT(V AND F)) OR NOT( V OR F)
+R= ((NOT(V) OR F) AND NOT(F)) OR NOT(V)
+R= ((F OR F) AND NOT(F)) OR NOT(V)
+R=(F AND V) OR F
+R=F OR F
+R= F
+
+10. ((NOT(V) OR F) AND (V AND NOT(F)) OR NOT(V OR F)
+R= ((NOT(V)) OR F) AND (V AND NOT(F)) OR NOT (V OR F)
+R= (F) AND (V) OR NOT(V OR F)
+R= F OR F
+R= F

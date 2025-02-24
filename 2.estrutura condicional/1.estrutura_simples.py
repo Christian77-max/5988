@@ -1,7 +1,7 @@
 import os
 os.system("clear")
 
-idade = 100
+idade = 10
 
 if idade < 18:
 
